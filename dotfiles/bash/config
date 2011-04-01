@@ -1,0 +1,3 @@
+# Contains shell and prompt specific settings
+
+PS1="\u:\w \$(vcprompt)\$ "

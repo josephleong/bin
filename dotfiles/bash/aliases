@@ -1,0 +1,58 @@
+# Contains shortcut commands and Functions with arguments
+
+# misc
+alias v='vim'
+alias matlab='/usr/local/MATLAB/R2010b/bin/matlab -nojvm'
+
+# ls
+if [ "`uname`" == "Linux" ]; then
+	alias ls="ls --color=auto"
+elif [ "`uname`" == "Darwin" ]; then
+	export TERM=xterm-color
+	alias ls='ls -G'
+fi
+
+alias ll="ls -alF"
+alias la="ls -a"
+alias l="ls -CF"
+
+# grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# cd
+alias ..="cd .."
+
+# Git
+alias g="git status"
+alias gco="git checkout"
+alias gci="git commit"
+alias gb="git branch"
+alias ga"git add"
+
+
+
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# don't put duplicate lines in the history. See bash(1) for more options
+# ... or force ignoredups and ignorespace
+HISTCONTROL=ignoredups:ignorespace
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
