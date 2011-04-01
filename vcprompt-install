@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir -p ~/src-vcprompt
+cd ~/src-vcprompt
+hg clone http://vc.gerg.ca/hg/vcprompt
+cd vcprompt
+make
+cp vcprompt ~/bin/vcprompt
