@@ -26,10 +26,13 @@ alias ..="cd .."
 
 # Git
 alias g="git status"
-alias gco="git checkout"
-alias gci="git commit"
+alias gs="git status"
+alias gst="git status"
+alias gc="git commit"
 alias gb="git branch"
-alias ga"git add"
+alias ga="git add"
+alias gp="git push"
+alias gco="git checkout"
 
 
 
