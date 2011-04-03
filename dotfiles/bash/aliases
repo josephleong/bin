@@ -12,7 +12,7 @@ elif [ "`uname`" == "Darwin" ]; then
 	alias ls='ls -G'
 fi
 
-alias ll="ls -alF"
+alias ll="ls -ahlF"
 alias la="ls -a"
 alias l="ls -CF"
 
