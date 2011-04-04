@@ -1,5 +1,5 @@
 # Contains values used by other scripts and configuration files
 
 export EDITOR="vim"
-export PATH=$PATH:~/bin
-export CDPATH=$CDPATH:./:~/
+export PATH="$PATH:$HOME/bin"
+export CDPATH="$HOME"

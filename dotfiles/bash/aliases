@@ -29,9 +29,11 @@ alias g="git status"
 alias gs="git status"
 alias gst="git status"
 alias gc="git commit"
+alias gci="git commit"
 alias gb="git branch"
 alias ga="git add"
 alias gp="git push"
+alias gpl="git pull"
 alias gco="git checkout"
 
 
