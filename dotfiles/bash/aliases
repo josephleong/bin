@@ -32,9 +32,12 @@ alias gc="git commit"
 alias gci="git commit"
 alias gb="git branch"
 alias ga="git add"
+alias gr="git rm"
+alias grm="git rm"
 alias gp="git push"
 alias gpl="git pull"
 alias gco="git checkout"
+alias gd="git diff"
 
 
 
