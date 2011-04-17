@@ -10,6 +10,8 @@ if [ "`uname`" == "Linux" ]; then
 elif [ "`uname`" == "Darwin" ]; then
 	export TERM=xterm-color
 	alias ls='ls -G'
+else
+	alias ls="ls --color=auto"
 fi
 
 alias ll="ls -ahlF"
