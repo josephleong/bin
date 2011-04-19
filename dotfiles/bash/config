@@ -1,3 +1,9 @@
 # Contains shell and prompt specific settings
 
-PS1="\u:\w \$(vcprompt)\$ "
+if [ -f ~/bin/vcprompt ] 
+then
+	PS1="\u:\w \$(vcprompt)\$ "
+else
+	PS1="\u:\w \$ "
+fi
+	
