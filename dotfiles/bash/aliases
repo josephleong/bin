@@ -3,6 +3,7 @@
 # misc
 alias v='vim'
 alias matlab='/usr/local/MATLAB/R2010b/bin/matlab -nojvm'
+alias h='history'
 
 # ls
 if [ "`uname`" == "Linux" ]; then
