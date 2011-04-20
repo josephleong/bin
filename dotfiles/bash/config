@@ -6,6 +6,6 @@ if [ -f ~/bin/vcprompt ]
 then
 	PS1="\u@\h: ../\W \[$Cyan\]\$(vcprompt)\[$Color_Off\]\$ "
 else
-	PS1="\u: \w \$ "
+	PS1="\u@\h: ../\W \$ "
 fi
 	
