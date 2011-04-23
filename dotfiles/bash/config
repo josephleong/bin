@@ -4,7 +4,7 @@ source ~/bin/dotfiles/bash/colors
 
 if [ -f ~/bin/vcprompt ] 
 then
-	PS1="\u: \w \[$Cyan\]\$(vcprompt)\[$Color_Off\]\$ "
+	PS1="\h: \w \[$Cyan\]\$(vcprompt)\[$Color_Off\]\$ "
 else
 	PS1="\u@\h: \w \$ "
 fi
