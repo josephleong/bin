@@ -4,6 +4,7 @@
 alias v='vim'
 alias matlab='/usr/local/MATLAB/R2010b/bin/matlab -nojvm'
 alias h='history'
+alias :q='exit'
 
 # ls
 if [ "`uname`" == "Linux" ]; then
