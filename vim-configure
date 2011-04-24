@@ -5,3 +5,4 @@ ln -s ~/bin/dotfiles/vimrc ~/.vimrc
 ln -s ~/bin/dotfiles/gvimrc ~/.gvimrc
 cd ~/.vim/bundle
 git clone https://github.com/Lokaltog/vim-easymotion.git
+git clone https://github.com/tomtom/tcomment_vim.git
