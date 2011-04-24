@@ -1,5 +1,6 @@
 
 " Tim Pope's Pathogen plugin for managing vim plugins: https://github.com/tpope/vim-pathogen
+call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 set tabstop=4                    " Global tab width

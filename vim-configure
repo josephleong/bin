@@ -1,8 +1,12 @@
 #!/bin/sh
 
+rm ~/.vim -rf
+rm ~/.vimrc
 ln -s ~/bin/dotfiles/vim ~/.vim
 ln -s ~/bin/dotfiles/vimrc ~/.vimrc
 ln -s ~/bin/dotfiles/gvimrc ~/.gvimrc
 cd ~/.vim/bundle
 git clone https://github.com/Lokaltog/vim-easymotion.git
 git clone https://github.com/tomtom/tcomment_vim.git
+git clone https://github.com/tpope/vim-surround.git
+git clone https://github.com/msanders/snipmate.vim
