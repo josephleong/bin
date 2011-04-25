@@ -1,12 +1,36 @@
 #!/bin/sh
 
+cd ~/bin
 rm ~/.vim -rf
 rm ~/.vimrc
+rm ~/.gvimrc
 ln -s ~/bin/dotfiles/vim ~/.vim
 ln -s ~/bin/dotfiles/vimrc ~/.vimrc
 ln -s ~/bin/dotfiles/gvimrc ~/.gvimrc
-cd ~/.vim/bundle
-git clone https://github.com/Lokaltog/vim-easymotion.git
-git clone https://github.com/tomtom/tcomment_vim.git
-git clone https://github.com/tpope/vim-surround.git
-git clone https://github.com/msanders/snipmate.vim
+git submodule add https://github.com/Lokaltog/vim-easymotion.git ~/bin/dotfiles/vim/bundle/vim-easymotion
+git submodule init
+git commit -m "add easymotion plugin as submodule"
+git submodule add https://github.com/tpope/vim-fugitive.git ~/bin/dotfiles/vim/bundle/vim-fugitive
+git submodule init
+git commit -m "add fugitive plugin as submodule"
+git submodule add https://github.com/tomtom/tcomment_vim.git ~/bin/dotfiles/vim/bundle/tcomment_vim
+git submodule init
+git commit -m "add tcomment plugin as submodule"
+git submodule add https://github.com/tpope/vim-surround.git ~/bin/dotfiles/vim/bundle/vim-surround
+git submodule init
+git commit -m "add surround plugin as submodule"
+git submodule add https://github.com/msanders/snipmate.vim.git ~/bin/dotfiles/vim/bundle/snipmate.vim
+git submodule init
+git commit -m "add snipmate plugin as submodule"
+git submodule add https://github.com/scrooloose/nerdtree.git ~/bin/dotfiles/vim/bundle/nerdtree
+git submodule init
+git commit -m "add nertree plugin as submodule"
+git submodule add git://git.wincent.com/command-t.git ~/bin/dotfiles/vim/bundle/command-t
+git submodule init
+git commit -m "add command+t plugin as submodule"
+git submodule add https://github.com/fholgado/minibufexpl.vim.git ~/bin/dotfiles/vim/bundle/minibufexpl.vim
+git submodule init
+git commit -m "add minibufexplorer plugin as submodule"
+git submodule add https://github.com/vim-scripts/Conque-Shell.git ~/bin/dotfiles/vim/bundle/Conque-Shell
+git submodule init
+git commit -m "add minibufexplorer plugin as submodule"
