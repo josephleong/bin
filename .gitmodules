@@ -13,3 +13,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/snipmate.vim"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/nerdtree"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
