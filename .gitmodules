@@ -16,3 +16,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/nerdtree"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/command-t"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git
