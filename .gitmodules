@@ -7,3 +7,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/tcomment_vim"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/vim-surround"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
