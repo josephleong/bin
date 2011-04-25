@@ -19,3 +19,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/command-t"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/minibufexpl.vim"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
