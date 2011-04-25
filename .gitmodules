@@ -10,3 +10,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/vim-surround"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/snipmate.vim"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
