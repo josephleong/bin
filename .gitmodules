@@ -22,3 +22,6 @@
 [submodule "/home/Joe/bin/dotfiles/vim/bundle/minibufexpl.vim"]
 	path = /home/Joe/bin/dotfiles/vim/bundle/minibufexpl.vim
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "/home/Joe/bin/dotfiles/vim/bundle/Conque-Shell"]
+	path = /home/Joe/bin/dotfiles/vim/bundle/Conque-Shell
+	url = https://github.com/vim-scripts/Conque-Shell.git
